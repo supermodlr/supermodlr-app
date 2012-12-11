@@ -1,0 +1,9 @@
+[submodule "system"]
+	path = system
+	url = https://github.com/kohana/core.git
+[submodule "modules/supermodlr"]
+	path = modules/supermodlr
+	url = https://github.com/supermodlr/supermodlr.git
+[submodule "modules/supermodlr-ui"]
+	path = modules/supermodlr-ui
+	url = https://github.com/supermodlr/supermodlr-ui.git
