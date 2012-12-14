@@ -117,6 +117,9 @@ Kohana::modules(array(
 	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+	'supermodlr'    => MODPATH.'supermodlr', // Supermodlr Core 
+	'supermodlr-ui' => MODPATH.'supermodlr-ui',  // Supermodlr ui for creating models and fields
+	'shmvc'         => MODPATH.'shmvc',      // Site HMVC.  Provides page and block controllers and searches for files in application/sites/$site
 	));
 
 /**

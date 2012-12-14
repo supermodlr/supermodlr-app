@@ -7,3 +7,6 @@
 [submodule "modules/supermodlr-ui"]
 	path = modules/supermodlr-ui
 	url = https://github.com/supermodlr/supermodlr-ui.git
+[submodule "modules/shmvc"]
+	path = modules/shmvc
+	url = https://github.com/supermodlr/kohana-shmvc.git
