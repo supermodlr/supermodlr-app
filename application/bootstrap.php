@@ -73,6 +73,10 @@ if (isset($_SERVER['KOHANA_ENV']))
 {
 	Kohana::$environment = constant('Kohana::'.strtoupper($_SERVER['KOHANA_ENV']));
 }
+else
+{
+	$_SERVER['KOHANA_ENV'] = 'DEVELOPMENT';
+}
 
 /**
  * Initialize Kohana, setting the default options.
@@ -91,7 +95,7 @@ if (isset($_SERVER['KOHANA_ENV']))
  */
 Kohana::init(array(
 	'base_url'   => '/',
-	'index_file'=> NULL,
+	'index_file'=> FALSE,
 ));
 
 /**
@@ -117,8 +121,8 @@ Kohana::modules(array(
 	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
-	'supermodlr'    => MODPATH.'supermodlr', // Supermodlr Core 
 	'supermodlr-ui' => MODPATH.'supermodlr-ui',  // Supermodlr ui for creating models and fields
+	'supermodlr'    => MODPATH.'supermodlr', // Supermodlr Core 	
 	'shmvc'         => MODPATH.'shmvc',      // Site HMVC.  Provides page and block controllers and searches for files in application/sites/$site
 	));
 
