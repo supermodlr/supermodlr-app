@@ -135,3 +135,8 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
 		'controller' => 'welcome',
 		'action'     => 'index',
 	));
+
+function fbl($var,$label = NULL)
+{
+	fb($var,$label);
+}
