@@ -10,3 +10,6 @@
 [submodule "modules/shmvc"]
 	path = modules/shmvc
 	url = https://github.com/supermodlr/kohana-shmvc.git
+[submodule "modules/cache"]
+	path = modules/cache
+	url = https://github.com/kohana/cache.git
