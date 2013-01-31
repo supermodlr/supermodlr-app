@@ -13,9 +13,3 @@
 [submodule "modules/cache"]
 	path = modules/cache
 	url = https://github.com/kohana/cache.git
-[submodule "modules/unittest"]
-	path = modules/unittest
-	url = git@github.com:kohana/unittest.git
-[submodule "modules/userguide"]
-	path = modules/userguide
-	url = git@github.com:kohana/userguide.git
