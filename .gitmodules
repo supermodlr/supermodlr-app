@@ -19,3 +19,6 @@
 [submodule "modules/userguide"]
 	path = modules/userguide
 	url = git@github.com:kohana/userguide.git
+[submodule "modules/kohana-events"]
+	path = modules/kohana-events
+	url = git@github.com:supermodlr/kohana-events.git
